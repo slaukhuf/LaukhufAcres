@@ -103,12 +103,9 @@ platforms :ruby, :mswin, :mswin64, :mingw, :x64_mingw do
   # Needed for compiling the ActionDispatch::Journey parser.
   gem "racc", ">=1.4.6", require: false
 
-  # Active Record.
-  gem "sqlite3", "~> 1.3.6"
 
   group :db do
     gem "pg", ">= 0.18.0"
-    gem "mysql2", ">= 0.4.4"
   end
 end
 
