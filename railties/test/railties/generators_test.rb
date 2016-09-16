@@ -43,7 +43,6 @@ module RailtiesTests
             source "https://rubygems.org"
 
             gem 'rails', path: '#{RAILS_FRAMEWORK_ROOT}'
-            gem 'sqlite3'
           GEMFILE
         end
       end
